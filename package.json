@@ -1,6 +1,6 @@
 {
   "name": "is-negative",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test if a number is negative",
   "license": "MIT",
   "repository": "kevva/is-negative",
