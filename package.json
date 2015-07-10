@@ -5,8 +5,8 @@
   "license": "MIT",
   "repository": "kevva/is-negative",
   "author": {
-    "name": "Kevin Martensson",
     "email": "kevinmartensson@gmail.com",
+    "name": "Kevin Martensson",
     "url": "github.com/kevva"
   },
   "engines": {
@@ -25,5 +25,8 @@
   ],
   "devDependencies": {
     "ava": "^0.0.4"
+  },
+  "dependencies": {
+    "is-positive": "^3.0.0"
   }
 }
