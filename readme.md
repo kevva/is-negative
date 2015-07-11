@@ -1,6 +1,6 @@
 # is-negative [![Build Status](https://travis-ci.org/kevva/is-negative.svg?branch=master)](https://travis-ci.org/kevva/is-negative)
 
-> Check if something is a positive number
+> Check if something is a negative number
 
 
 ## Install
