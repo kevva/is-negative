@@ -31,6 +31,11 @@ isNegative('-1');
 _Note: This module doesn't consider `-0` to be a negative number. If you want to detect `-0`, use the [`negative-zero`](https://github.com/sindresorhus/negative-zero) module._
 
 
+## Related
+
+- [is-positive](https://github.com/kevva/is-positive) - Check if something is a positive number
+
+
 ## License
 
 MIT © [Kevin Martensson](http://github.com/kevva)
