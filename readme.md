@@ -13,7 +13,7 @@ $ npm install --save is-negative
 ## Usage
 
 ```js
-var isNegative = require('is-negative');
+const isNegative = require('is-negative');
 
 isNegative(-1);
 //=> true
