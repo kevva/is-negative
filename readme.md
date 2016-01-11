@@ -26,6 +26,9 @@ isNegative(0);
 
 isNegative('-1');
 //=> false
+
+isNegative(Number(-1))
+//=> true
 ```
 
 _Note: This module doesn't consider `-0` to be a negative number. If you want to detect `-0`, use the [`negative-zero`](https://github.com/sindresorhus/negative-zero) module._
