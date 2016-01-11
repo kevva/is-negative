@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var isNegative = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isNegative(-1));
-	t.assert(!isNegative(0));
-	t.assert(!isNegative(1));
-	t.assert(!isNegative('-1'));
-	t.assert(isNegative(Number(-1)));
-	t.end();
+test(t => {
+	t.true(m(-1));
+	t.false(!m(0));
+	t.false(!m(1));
+	t.false(!m('-1'));
+	t.true(m(Number(-1)));
 });
